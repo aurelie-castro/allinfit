@@ -6,7 +6,8 @@
     <title>Le site des web</title>
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/agenda.css">
-    <link rel="stylesheet" href="apropos.css">
+    <link rel="stylesheet" href="public/css/apropos.css">
+    <link rel="stylesheet" href="public/css/slider.css">
 </head>
 <body>
     
