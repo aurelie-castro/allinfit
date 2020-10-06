@@ -1,4 +1,4 @@
-<nav>
+
 <nav class="navigation">
       <ul class="logo">
         <li>
@@ -8,7 +8,7 @@
         </li>
       </ul>
       <ul class="menu">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="?section=accueil">Home</a></li>
         <li><a href="?section=accueil">AllinFit</a></li>
         <li><a href="?section=apropos">Réservations</a></li>
         <li><a href="?section=connexion">Contact</a></li>
@@ -16,4 +16,3 @@
       </ul>
     </nav>
 
-</nav>

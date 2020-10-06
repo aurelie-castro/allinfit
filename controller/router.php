@@ -2,16 +2,16 @@
   if(isset($_GET["section"])){
 switch ($_GET) {
     case 'accueil':
-        include("view/page/accueil.php");
+        include("controller/accueilController.php");
         break;
         case 'apropos':
-            include("view/page/apropos.php");
+            include("controller/aproposController.php");
             break;
             case 'connexion':
-                include("view/page/connexion.php");
+                include("controller/connexionController.php");
                 break;
                 case 'contact':
-                    include("view/page/contact.php");
+                    include("controller/contactController.php");
                     break;
     default:
     include("view/error/erreur.php");
