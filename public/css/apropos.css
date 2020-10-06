@@ -1,0 +1,25 @@
+
+.liste > ul {
+    list-style: none;
+}
+
+.liste > ul > li{
+
+    justify-content: start;
+}
+
+.apropos{
+    background-color: white;
+    width: 1200px;
+    height:1000px;
+    position: absolute;
+    margin-left:350px;
+    margin-right:500px;
+    padding:56px;
+    opacity: 0.9;
+    
+}
+
+html, body{
+    background-color: rgb(233, 233, 233);
+}

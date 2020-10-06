@@ -1,3 +1,4 @@
+<div class="apropos">
 <h1>reservation</h1>
 
 <div class="agenda">
@@ -182,3 +183,4 @@
             Fromage râpé
             Spaghettit</p>
     </div>
+</div>
