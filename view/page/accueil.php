@@ -1,10 +1,14 @@
+
+
+<div class=sliderimage>
+<div class="coteDroit">
 <h2>Accueil</h2>
-
-
+</div>
 <div id="slider">
         <img src="public/images/image1.jpg" alt="La forêt de peupliers" id="slide">
         <div id="precedent" onclick="ChangeSlide(-1)"><</div>
         <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
     </div>
 <script>
 var slide = new Array(

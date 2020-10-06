@@ -1,4 +1,16 @@
 
+.sliderimage {
+    background-color: red;
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
 #slider {
     position: relative;
     width: 800px;
