@@ -3,3 +3,62 @@
     border: 1px solid red;
     border-radius:5px;
 }
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: #028090;
+  }
+  
+  nav img {
+    height: 60px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    height: 100px;
+    position: relative;
+    left: 350px;
+    margin-top: 0;
+  }
+  
+  .menu li {
+    list-style-type: none;
+    font-family: "roboto";
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 100px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #ff9f1c;
+    display: block;
+    padding: 0 50px 0 50px;
+  }
+  
+  nav .menu li:hover {
+    background-color: #ff9f1c;
+  }
+  nav .menu li a:hover {
+    color: white;
+  }
+  
+  .logo li {
+    list-style-type: none;
+  }
+  

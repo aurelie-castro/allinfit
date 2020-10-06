@@ -116,11 +116,11 @@
     padding:60px;
     margin:0;
 }
-.menu{
+/* .menu{
     width:25%;
     display:flex;
     justify-content: space-between;
-}
+} */
 
 .entete{
     background-color: green;
