@@ -1,0 +1,135 @@
+/* calendar */
+.agenda{
+    position: absolute;
+    margin-left: 700px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 5px 10px #5f5d5d3b;
+    
+}
+.row-1, .row-2, .row-3, .row-4, .row-5{
+    display: flex;
+
+}
+
+.jour{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 10px;
+    width: 70px;
+    height:70px;
+    transition: background-color 0.1s;
+}
+
+.jour:hover{
+    background-color: rgba(128, 128, 128, 0.384);
+}
+.mini{
+    /* color:palevioletred; */
+    text-align: right;
+
+}
+
+.semaine{
+    display: flex;
+
+}
+
+.jr{
+    border: 1px solid  rgba(0, 0, 0, 0.192);
+    padding: 16px;
+    width: 58px;
+    height:20px;
+    font-size: small;
+}
+
+.rien{
+    text-align: right;
+}
+
+.vide{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 10px;
+    width: 70px;
+    height:70px;
+}
+
+.fleches{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    display: flex;
+}
+
+.precedent{
+    margin-right: 150px;
+}
+.precedent:hover{
+    cursor: pointer;
+}
+
+.suivant:hover{
+    cursor: pointer;
+}
+
+.mois{
+    margin-right: 150px;
+}
+
+.popup, .autre_popup{
+    display: none;
+    background-color: white;
+    width:300px;
+    height:400px;
+    position: absolute;
+    margin-left: 300px;
+    box-shadow: 5px 10px #5f5d5d3b;
+
+    
+}
+
+.jour:hover{
+    cursor: pointer;
+}
+
+/* ul li {
+    list-style-type: none;
+
+  } */
+
+
+
+.logo{
+      width:100px;
+  }
+/* 
+.agenda > p{
+    text-align:center;
+    width: 100px;
+  } */
+
+.ligne{
+      border-left:1px solid black;
+  }
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    padding:60px;
+    margin:0;
+}
+.menu{
+    width:25%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.entete{
+    background-color: green;
+    color: white;
+    padding: 2px;
+
+
+}
+
+.event{
+    background-color: rgba(144, 238, 144, 0.658);
+}

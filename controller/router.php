@@ -17,6 +17,9 @@
             case 'deconnexion':
                 include("controller/deconnexionController.php");
                 break;
+            case 'reservation':
+                include("controller/reservationController.php");
+                break;            
             
             default:
                 include("view/error/404.php");
