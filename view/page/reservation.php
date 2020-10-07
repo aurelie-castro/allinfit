@@ -1,186 +1,59 @@
+
+
+
 <div class="apropos">
-<h1>reservation</h1>
 
-<div class="agenda">
-        <div class="fleches">
-            <div class="precedent">
-                <!-- <a href="octobre.html"> -->
-                    <
-                        <!-- </a> -->
-            </div>
-            <div class="mois">Septembre</div>
-            <div class="suivant">
-                <a href="october.html">></a>
-            </div>
-        </div>
+<div class="reservation" id="reservation">
+    <h2>Réservez votre séance</h2>
+<form action="#" method="post" id="rdv">
+  <div>
+  <label for="identifiant" class="label-form">Identifiant:</label>
+    <input type="number" name="identifiant" id="identifiant" value="" >
 
-        <div class="semaine">
-        <div class="jr">lun</div>
-        <div class="jr">mar</div>
-        <div class="jr">mer</div>
-        <div class="jr">jeu</div>
-        <div class="jr">ven</div>
-        <div class="jr">sam</div>
-        <div class="jr">dim</div>
+  </div>
+  <div>
+  <input type="radio" name="sexe" id="femme" value="femme">
+    <label for="femme">Une femme</label>
+    <input type="radio" name="sexe" id="homme" value="homme">
+    <label for="homme">Un homme</label>
+    <input type="radio" name="autre" id="autre" value="autre">
+    <label for="autre">Je ne souhaite pas le préciser</label>
+  </div>
+<div>   
+<label for="nom" class="label-form">Nom:</label>
+    <input type="text" name="nom" id="nom" value="" required>
+    </div> 
+    <div>
+    <label for="prenom" class="label-form">Prénom:</label>
+    <input type="text" name="prenom" id="prenom" value="" required>
+    </div>
+    <div>
+    <label for="telephone" class="label-form">Numéro de téléphone:</label>
+    <input type="number" name="telephone" id="telephone" value="" required>
+    </div>
+    <div>
+    <label for="jour">Choisissez le jour de la séance:</label>
+        <select name="jour" id="jour">
+            <option value="lundi">Lundi</option>
+            <option value="mardi">Mardi</option>
+            <option value="mercredi">Mercredi</option>
+            <option value="jeudi">Jeudi</option>
+            <option value="vendredi">Vendredi</option>
+            <option value="samedi">Samedi</option>
+        </select>
+    </div>
+    <label for="heure">Choisissez l'heure de la séance:</label>
+        <select name="choix" id="choix">
+            <option value="18h">18h </option>
+            <option value="20h30">20h:30</option>
+            <option value="22h">22h</option>
+  
+        </select>
+    </div>
+    <input type="reset" value="Effacer" id="effacer">
+    <input type="submit" value="Envoyer" id="envoyer">
+    </form>
     </div>
 
-      <div class="row-1">
-        <div class="vide">
-          <div class="rien"></div>
-        </div>
 
-        <div class="jour event" id="day">
-          <div class="mini day">1</div>
-        </div>
-
-        <div class="jour" id="other">
-          <div class="mini">2</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">3</div>
-          
-        </div>
-        <div class="jour">
-          <div class="mini">4</div>
-        </div>
-        <div class="jour">
-          <div class="mini">5</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">6</div>
-        </div>
-      </div>
-
-      <div class="row-2">
-        <div class="jour">
-          <div class="mini">7</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">8</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">9</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">10</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">11</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">12</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">13</div>
-        </div>
-      </div>
-
-      <div class="row-3">
-        <div class="jour">
-          <div class="mini">14</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">15</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">16</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">17</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">18</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">19</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">20</div>
-        </div>
-      </div>
-
-      <div class="row-4">
-        <div class="jour">
-          <div class="mini">21</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">22</div>
-        </div>
-        <div class="jour">
-          <div class="mini">23</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">24</div>
-        </div>
-        <div class="jour">
-          <div class="mini">25</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">26</div>
-        </div>
-
-        <div class="jour">
-          <div class="mini">27</div>
-        </div>
-      </div>
-
-      <div class="row-5">
-        <div class="jour">
-          <div class="mini">28</div>
-        </div>
-
-        <div class="jour">
-            <div class="mini">29</div>
-        </div>
-
-        <div class="jour">
-            <div class="mini">30</div>
-        </div>
-
-        <div class="jour">
-            <div class="mini">31</div>
-        </div>
-
-        <div class="vide">
-            <div class="rien"></div>
-        </div>
-
-        <div class="vide">
-            <div class="rien"></div>
-        </div>
-
-        <div class="vide">
-            <div class="rien"></div>
-        </div>
-
-      </div>
-    </div>
-    <div class="popup" id="popup" role="dialog">
-        <div class="entete">Evenements</div>
-        <p>Conseil de classe </p>
-        
-        <div class="entete"><p>Menu du jour</p></div>
-        <p>Description :
-            Potage aux céleris
-            Sauce bolognaise
-            Fromage râpé
-            Spaghettit</p>
-    </div>
 </div>
