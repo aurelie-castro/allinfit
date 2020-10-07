@@ -31,7 +31,7 @@ function ChangeSlide(sens) {
 
 <br>
 <div class="cards-clic">
-    <a href="url"><div class="card-clic">card1</div></a>
+    <a href="url"><div class="card-clic">card1<i class="fas fa-fast-backward"></i></div></a>
     <a href="url"><div class="card-clic">card2</div></a>
     <a href=""><div class="card-clic">card3</div></a>
 </div>
