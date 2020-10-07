@@ -43,7 +43,7 @@
         </select>
     </div>
     <label for="heure">Choisissez l'heure de la séance:</label>
-        <select name="choix" id="choix">
+        <select name="heure" id="heure">
             <option value="18h">18h </option>
             <option value="20h30">20h:30</option>
             <option value="22h">22h</option>
