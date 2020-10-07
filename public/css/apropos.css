@@ -23,3 +23,25 @@
 html, body{
     background-color: rgb(233, 233, 233);
 }
+
+
+.cards-clic{
+    display:flex;
+    /* border: 1px purple solid; */
+    justify-content:space-around;
+}
+
+.card-clic{
+    /* border:1px solid black; */
+    border-collapse: collapse;
+    padding:15px;
+    height:200px;
+    width: 200px;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cards-clic > a{
+    text-decoration: none;
+    color:black;
+}
