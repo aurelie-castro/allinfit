@@ -1,6 +1,6 @@
 
-
-<div class=sliderimage>
+<div class="apropos">
+<div class="sliderimage">
 <div class="coteDroit">
 <h2>Accueil</h2>
 </div>
@@ -28,3 +28,11 @@ function ChangeSlide(sens) {
 }
 
 </script>
+
+<br>
+<div class="cards-clic">
+    <a href="url"><div class="card-clic">card1<i class="fas fa-fast-backward"></i></div></a>
+    <a href="url"><div class="card-clic">card2</div></a>
+    <a href=""><div class="card-clic">card3</div></a>
+</div>
+</div>
