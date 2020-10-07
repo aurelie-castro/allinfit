@@ -60,3 +60,111 @@ nav .menu li a:hover {
 .logo li {
   list-style-type: none;
 }
+
+.contact-page {
+  background-color: white;
+  width: 1000px;
+  height: 1700px;
+  position: absolute;
+  margin-left: 125px;
+  margin-right: 500px;
+  opacity: 0.9;
+}
+
+.contact-text {
+  width: 425px;
+  height: 170px;
+  background-color: white;
+  color: #61574e;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  padding: 10px;
+}
+.titre-contact {
+  color: teal;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.contact-info > div {
+  width: 300px;
+  height: 200px;
+  background-color: teal;
+  color: white;
+}
+
+.contact-info > div > h2 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.contact-info > div > p {
+  padding: 5px;
+}
+
+.formulaire {
+  margin: 20px 250px 10px 250px;
+  margin-bottom: 10px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, 0.2);
+  display: none;
+}
+
+#btn {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+form > div {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+form > div > input {
+  border-radius: 3px;
+}
+
+#message-box {
+  width: 300px;
+  height: 100px;
+}
+
+.label-form {
+  display: inline-block;
+  width: 180px;
+  height: 15px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+.visite {
+  width: 1000px;
+  height: 80px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 30px;
+}
+
+.i-frame > p {
+  text-align: center;
+}
